@@ -263,15 +263,37 @@ p {
 
 /* SOCIAL MEDIA TEMPLATE HERE */
 
+@media screen and (max-width: 991px) {
+/* start of large tablet styles */
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .social-icons {
     display: flex;
-    text-align: center;
-    position: absolute;
 }
 
 .social-icons li {
     background: #000;
-    margin: 10px;
+    margin: 16px;
     list-style: none;
     font-size: 50px;
     transition: .5s;
