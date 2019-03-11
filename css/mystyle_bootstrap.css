@@ -1,5 +1,5 @@
 body {
-    background-image: url(/img/best-backgrounds-18905-19393-hd-wallpapers.jpg);
+    background-image: url(../img/best-backgrounds-18905-19393-hd-wallpapers.jpg);
     background-size: cover;
 }
 
@@ -50,7 +50,6 @@ body {
     height: 250px;
     border-radius: 750px;
     border-style: solid;
-    transform: rotate(-90deg);
 }
 
 /* Header End */
